@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Generated audio
+backend/output.wav
+
+# Voice models (large binary files)
+*.onnx
+*.onnx.json
+
+# OS junk
+.DS_Store
+Thumbs.db
